@@ -5,6 +5,8 @@ struct OverviewView: View {
     @Bindable var model: CaddymanAppModel
     @State private var isConfirmingStart = false
     @State private var isConfirmingRestart = false
+    @State private var dataDirectoryError: String?
+    private let dataDirectoryOpener: any CaddymanDataDirectoryOpening = SystemCaddymanDataDirectoryOpener()
 
     var body: some View {
         VStack(alignment: .leading, spacing: 18) {
@@ -105,6 +107,14 @@ struct OverviewView: View {
                         Spacer()
                         Button("Caddy Settings") {
                             model.selectedSettingsTab = .caddy
+                        }
+                        .buttonStyle(.link)
+                        Button("Library Directory") {
+                            do {
+                                try dataDirectoryOpener.createAndOpen()
+                            } catch {
+                                dataDirectoryError = error.localizedDescription
+                            }
                         }
                         .buttonStyle(.link)
                         Button("Startup") {
@@ -238,6 +248,14 @@ struct OverviewView: View {
             Button("Cancel", role: .cancel) {}
         } message: {
             Text("Caddy may request or renew certificates and DNSPod sites may create temporary DNS challenge records.")
+        }
+        .alert("Could Not Open Data Folder", isPresented: Binding(
+            get: { dataDirectoryError != nil },
+            set: { if !$0 { dataDirectoryError = nil } }
+        )) {
+            Button("OK", role: .cancel) { dataDirectoryError = nil }
+        } message: {
+            Text(dataDirectoryError ?? L10n.text("The Caddyman data folder could not be opened."))
         }
         .task {
             if model.lastRefreshDate == nil {

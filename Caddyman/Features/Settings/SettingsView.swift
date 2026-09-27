@@ -55,6 +55,10 @@ struct SettingsView: View {
         }
         .frame(width: 980, height: 680, alignment: .topLeading)
         .background(Color(nsColor: .windowBackgroundColor))
+        .background {
+            SettingsWindowTitleHider()
+                .frame(width: 0, height: 0)
+        }
         .groupBoxStyle(CaddymanCardStyle())
         .fileImporter(
             isPresented: $isChoosingBinary,
