@@ -113,11 +113,10 @@ struct MenuBarView: View {
     }
 
     private var statusColor: Color {
-        if model.managedCaddyIsRunning { return .green }
-        return switch model.serviceStatus {
-        case .adminPortResponding: .orange
-        case .checking: .yellow
-        case .notChecked, .unavailable: .secondary
+        return switch model.menuBarStatus {
+        case .running: .green
+        case .ready: .yellow
+        case .error: .red
         }
     }
 
@@ -133,9 +132,46 @@ struct MenuBarView: View {
 }
 
 struct CaddymanMenuBarMark: View {
+    let status: CaddymanMenuBarStatus
+    @Environment(\.colorScheme) private var colorScheme
+
     var body: some View {
-        Image("CaddymanStatusMark")
-            .renderingMode(.template)
+        Image(nsImage: renderedMark)
+            .renderingMode(.original)
             .accessibilityHidden(true)
+    }
+
+    private var renderedMark: NSImage {
+        let foreground = colorScheme == .dark ? Color.white : Color.black
+        let mark = ZStack(alignment: .bottomLeading) {
+            Image("CaddymanStatusMark")
+                .renderingMode(.template)
+                .resizable()
+                .scaledToFit()
+                .foregroundStyle(foreground)
+
+            Circle()
+                .fill(statusColor)
+                .frame(width: 4.5, height: 4.5)
+                .overlay {
+                    Circle().strokeBorder(foreground, lineWidth: 0.75)
+                }
+                .offset(x: 1, y: -1)
+        }
+        .frame(width: 18, height: 13)
+
+        let renderer = ImageRenderer(content: mark)
+        renderer.scale = 2
+        let image = renderer.nsImage ?? NSImage(size: NSSize(width: 36, height: 26))
+        image.isTemplate = false
+        return image
+    }
+
+    private var statusColor: Color {
+        switch status {
+        case .running: .green
+        case .ready: .yellow
+        case .error: .red
+        }
     }
 }

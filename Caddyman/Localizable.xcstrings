@@ -1011,6 +1011,26 @@
         }
       }
     },
+    "Caddyman: configuration is ready; Caddy is stopped": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Caddyman：配置正常，Caddy 已停止"
+          }
+        }
+      }
+    },
+    "Caddyman: needs attention": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Caddyman：需要处理错误"
+          }
+        }
+      }
+    },
     "Caddyman: no response on the default local Admin API port": {
       "localizations": {
         "zh-Hans": {

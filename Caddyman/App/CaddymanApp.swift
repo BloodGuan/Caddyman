@@ -13,7 +13,7 @@ struct CaddymanApp: App {
         MenuBarExtra {
             MenuBarView(model: model)
         } label: {
-            CaddymanMenuBarMark()
+            CaddymanMenuBarMark(status: model.menuBarStatus)
                 .accessibilityLabel(model.menuBarAccessibilityLabel)
         }
         .menuBarExtraStyle(.window)

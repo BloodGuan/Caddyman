@@ -11,6 +11,12 @@ enum CaddymanSettingsTab: Hashable {
     case about
 }
 
+enum CaddymanMenuBarStatus: Equatable {
+    case running
+    case ready
+    case error
+}
+
 @MainActor
 protocol CaddyBinaryPathStoring {
     func loadPath() -> String
@@ -149,6 +155,7 @@ final class CaddymanAppModel {
     private(set) var previousCaddyfileDocument: CaddyfileDocument?
     private(set) var isRefreshing = false
     private(set) var isPerformingRuntimeAction = false
+    private(set) var lastRuntimeActionFailed = false
     private(set) var lastRefreshDate: Date?
     private(set) var runtimeActionMessage: String?
     private(set) var certificateIssuanceStatus: String?
@@ -202,15 +209,33 @@ final class CaddymanAppModel {
         self.startsCaddyWithApp = resolvedAppStartStore.loadEnabled()
     }
 
-    var menuBarAccessibilityLabel: String {
-        if managedCaddyIsRunning {
-            return L10n.text("Caddyman: managed Caddy is running")
+    var menuBarStatus: CaddymanMenuBarStatus {
+        guard case .ready = inspectionState,
+              case .loaded = caddyfileReadState,
+              managedSiteReadError == nil,
+              !caddyfileExternalChangeDetected,
+              !lastRuntimeActionFailed,
+              launchAgentSnapshot.issue == nil,
+              !launchAgentSnapshot.isForeign else {
+            return .error
         }
-        return switch serviceStatus {
-        case .adminPortResponding: L10n.text("Caddyman: local Admin API port is open; ownership unknown")
-        case .checking: L10n.text("Caddyman: checking local Caddy status")
-        case .notChecked: L10n.text("Caddyman: status not checked")
-        case .unavailable: L10n.text("Caddyman: no response on the default local Admin API port")
+
+        if managedCaddyIsRunning {
+            if case .unavailable = serviceStatus { return .error }
+            return .running
+        }
+        if case .adminPortResponding = serviceStatus { return .error }
+        return .ready
+    }
+
+    var menuBarAccessibilityLabel: String {
+        switch menuBarStatus {
+        case .running:
+            L10n.text("Caddyman: managed Caddy is running")
+        case .ready:
+            L10n.text("Caddyman: configuration is ready; Caddy is stopped")
+        case .error:
+            L10n.text("Caddyman: needs attention")
         }
     }
 
@@ -221,11 +246,13 @@ final class CaddymanAppModel {
 
     func setSelectedBinaryPath(_ path: String) async {
         selectedBinaryPath = path.trimmingCharacters(in: .whitespacesAndNewlines)
+        lastRuntimeActionFailed = false
         await refresh()
     }
 
     func useAutomaticDiscovery() async {
         selectedBinaryPath = ""
+        lastRuntimeActionFailed = false
         await refresh()
     }
 
@@ -233,6 +260,7 @@ final class CaddymanAppModel {
         let newPath = path.trimmingCharacters(in: .whitespacesAndNewlines)
         if selectedCaddyfilePath != newPath {
             selectedCaddyfilePath = newPath
+            lastRuntimeActionFailed = false
             initialCaddyfileHash = nil
             caddyfileHashStore.saveHash(nil)
             caddyfileExternalChangeDetected = false
@@ -244,6 +272,7 @@ final class CaddymanAppModel {
 
     func clearSelectedCaddyfile() {
         selectedCaddyfilePath = ""
+        lastRuntimeActionFailed = false
         initialCaddyfileHash = nil
         caddyfileHashStore.saveHash(nil)
         caddyfileExternalChangeDetected = false
@@ -252,6 +281,7 @@ final class CaddymanAppModel {
     }
 
     func acceptExternalCaddyfileChanges() {
+        lastRuntimeActionFailed = false
         resetCaddyfileChangeBaseline()
         loadSelectedCaddyfile()
     }
@@ -287,6 +317,7 @@ final class CaddymanAppModel {
         guard startsCaddyWithApp && !isTerminating else { return }
         guard !launchAgentSnapshot.isInstalled && !launchAgentSnapshot.isForeign else {
             runtimeActionMessage = L10n.text("Remove the old independent Caddy login service before using app-managed startup.")
+            lastRuntimeActionFailed = true
             return
         }
         _ = await startManagedCaddy()
@@ -296,6 +327,7 @@ final class CaddymanAppModel {
         if enabled {
             launchAgentSnapshot = await launchAgentController.inspect()
             guard !launchAgentSnapshot.isInstalled && !launchAgentSnapshot.isForeign else {
+                lastRuntimeActionFailed = true
                 return L10n.text("Remove the old independent Caddy login service before using app-managed startup.")
             }
             if !runtimeController.isRunning {
@@ -305,6 +337,7 @@ final class CaddymanAppModel {
         }
         startsCaddyWithApp = enabled
         appStartStore.saveEnabled(enabled)
+        lastRuntimeActionFailed = false
         return enabled
             ? L10n.text("Caddy now starts with Caddyman and stops when Caddyman quits.")
             : L10n.text("Caddy will no longer start automatically with Caddyman.")
@@ -335,6 +368,7 @@ final class CaddymanAppModel {
             return completed
         } catch {
             runtimeActionMessage = error.localizedDescription
+            lastRuntimeActionFailed = true
             return false
         }
     }
@@ -414,11 +448,13 @@ final class CaddymanAppModel {
                 throw CaddyRuntimeError.startHealthCheckFailed
             }
             runtimeActionMessage = L10n.text("Caddyman started its own Caddy process.")
+            lastRuntimeActionFailed = false
             beginCertificateIssuanceFeedbackIfNeeded()
             await refresh()
             return runtimeActionMessage ?? ""
         } catch {
             runtimeActionMessage = error.localizedDescription
+            lastRuntimeActionFailed = true
             return error.localizedDescription
         }
     }
@@ -443,10 +479,12 @@ final class CaddymanAppModel {
             certificateMonitorID = UUID()
             certificateIssuanceStatus = nil
             runtimeActionMessage = L10n.text("Caddyman stopped the Caddy process it started.")
+            lastRuntimeActionFailed = false
             await refresh()
             return runtimeActionMessage ?? ""
         } catch {
             runtimeActionMessage = error.localizedDescription
+            lastRuntimeActionFailed = true
             return error.localizedDescription
         }
     }
@@ -489,11 +527,13 @@ final class CaddymanAppModel {
                 throw CaddyRuntimeError.startHealthCheckFailed
             }
             runtimeActionMessage = L10n.text("Caddyman restarted its Caddy process.")
+            lastRuntimeActionFailed = false
             beginCertificateIssuanceFeedbackIfNeeded()
             await refresh()
             return runtimeActionMessage ?? ""
         } catch {
             runtimeActionMessage = error.localizedDescription
+            lastRuntimeActionFailed = true
             return error.localizedDescription
         }
     }
@@ -508,10 +548,12 @@ final class CaddymanAppModel {
             guard launchAgentSnapshot.isInstalled else { throw CaddyLaunchAgentError.notInstalled }
             try await launchAgentController.uninstall()
             runtimeActionMessage = L10n.text("Independent Caddy service removed. The Caddyfile and certificates were kept.")
+            lastRuntimeActionFailed = false
             await refresh()
             return runtimeActionMessage ?? ""
         } catch {
             runtimeActionMessage = error.localizedDescription
+            lastRuntimeActionFailed = true
             await refresh()
             return runtimeActionMessage ?? ""
         }
