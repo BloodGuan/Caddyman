@@ -1,0 +1,3697 @@
+{
+  "sourceLanguage": "en",
+  "strings": {
+    "127.0.0.1:2019 already accepts connections. Caddyman will not take over a process whose ownership is unknown.": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "127.0.0.1:2019 已有进程接受连接。Caddyman 不会接管所有权不明的进程。"
+          }
+        }
+      }
+    },
+    "A Caddyfile block is incomplete or has unbalanced braces.": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Caddyfile 配置块不完整或大括号不匹配。"
+          }
+        }
+      }
+    },
+    "A Caddyman managed-region marker is malformed.": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Caddyman 托管区域的标记格式有误。"
+          }
+        }
+      }
+    },
+    "A Caddyman site marker is incomplete or malformed. No site changes were saved.": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Caddyman 站点标记不完整或格式错误，未保存任何更改。"
+          }
+        }
+      }
+    },
+    "A Caddyman-managed site block cannot be safely interpreted. No site changes were saved.": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "无法安全解析 Caddyman 托管的站点配置块，未保存任何更改。"
+          }
+        }
+      }
+    },
+    "A different LaunchAgent already uses Caddyman's service label or plist path. Caddyman will not change it.": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "另一个 LaunchAgent 已占用 Caddyman 的服务标识或 plist 路径，Caddyman 不会修改它。"
+          }
+        }
+      }
+    },
+    "A local process accepts connections on the default Caddy Admin API port. Process ownership is not confirmed.": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "本机进程正在接受默认 Caddy 管理 API 端口的连接，但尚未确认该进程的归属。"
+          }
+        }
+      }
+    },
+    "A local, menu bar manager for one Caddy instance.": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "单实例 Caddy 的本机菜单栏管理器。"
+          }
+        }
+      }
+    },
+    "A site for %@ already exists.": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "站点 %@ 已存在。"
+          }
+        }
+      }
+    },
+    "About": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "关于"
+          }
+        }
+      }
+    },
+    "About detection": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "关于检测"
+          }
+        }
+      }
+    },
+    "ACME environment": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ACME 环境"
+          }
+        }
+      }
+    },
+    "Add a site to preview and validate a Caddyfile change.": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "添加站点后，可预览并校验 Caddyfile 更改。"
+          }
+        }
+      }
+    },
+    "Add Site…": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "添加站点…"
+          }
+        }
+      }
+    },
+    "Admin port occupied; ownership unknown": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "管理端口已被占用，进程归属未知"
+          }
+        }
+      }
+    },
+    "An older Caddy login service is installed. It can keep running after Caddyman quits.": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "已安装旧版 Caddy 登录服务。它可能在 Caddyman 退出后继续运行。"
+          }
+        }
+      }
+    },
+    "App session": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "应用会话"
+          }
+        }
+      }
+    },
+    "Application details": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "应用信息"
+          }
+        }
+      }
+    },
+    "Apply site changes?": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "要应用站点更改吗？"
+          }
+        }
+      }
+    },
+    "Apply this migration?": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "要应用此迁移吗？"
+          }
+        }
+      }
+    },
+    "Approve Caddyman in System Settings > Login Items to finish setup.": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "请在“系统设置 > 登录项”中允许 Caddyman 以完成设置。"
+          }
+        }
+      }
+    },
+    "Automatic Homebrew discovery": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "自动查找 Homebrew 安装"
+          }
+        }
+      }
+    },
+    "Automatic HTTPS": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "自动 HTTPS"
+          }
+        }
+      }
+    },
+    "Available": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "可用"
+          }
+        }
+      }
+    },
+    "Back Up and Apply": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "备份并应用"
+          }
+        }
+      }
+    },
+    "Back Up and Apply…": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "备份并应用…"
+          }
+        }
+      }
+    },
+    "Binary": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "二进制文件"
+          }
+        }
+      }
+    },
+    "Blocked by previous service": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "被旧版服务阻止"
+          }
+        }
+      }
+    },
+    "Bundle ID": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "软件包标识符"
+          }
+        }
+      }
+    },
+    "Caddy": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Caddy"
+          }
+        }
+      }
+    },
+    "Caddy binary": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Caddy 二进制文件"
+          }
+        }
+      }
+    },
+    "Caddy binary not found": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "未找到 Caddy 二进制文件"
+          }
+        }
+      }
+    },
+    "Caddy certificate activity: %@": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Caddy 证书活动：%@"
+          }
+        }
+      }
+    },
+    "Caddy configuration validation failed: %@": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Caddy 配置校验失败：%@"
+          }
+        }
+      }
+    },
+    "Caddy could not be stopped": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "无法停止 Caddy"
+          }
+        }
+      }
+    },
+    "Caddy could not inspect the adapted configuration.": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "无法检查 Caddy 转换后的配置。"
+          }
+        }
+      }
+    },
+    "Caddy detection": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Caddy 检测"
+          }
+        }
+      }
+    },
+    "Caddy follows Caddyman": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Caddy 跟随 Caddyman"
+          }
+        }
+      }
+    },
+    "Caddy inspection failed": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Caddy 检测失败"
+          }
+        }
+      }
+    },
+    "Caddy login service enabled.": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "已启用 Caddy 登录服务。"
+          }
+        }
+      }
+    },
+    "Caddy login service removed. The Caddyfile and certificates were kept.": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "已移除 Caddy 登录服务；Caddyfile 和证书已保留。"
+          }
+        }
+      }
+    },
+    "Caddy Manager": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Caddy 管理器"
+          }
+        }
+      }
+    },
+    "Caddy may request certificates and DNSPod sites may create temporary DNS records. Caddyman validates the selected Caddyfile before starting it.": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Caddy 可能申请证书，DNSPod 站点可能创建临时 DNS 记录。启动前 Caddyman 会校验所选 Caddyfile。"
+          }
+        }
+      }
+    },
+    "Caddy may request certificates and DNSPod sites may create temporary DNS records. The selected Caddyfile will be validated before the service is installed.": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Caddy 可能申请证书，DNSPod 站点可能创建临时 DNS 记录。安装服务前会校验所选 Caddyfile。"
+          }
+        }
+      }
+    },
+    "Caddy may request or renew certificates and DNSPod sites may create temporary DNS challenge records.": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Caddy 可能申请或续期证书，DNSPod 站点可能创建临时 DNS 验证记录。"
+          }
+        }
+      }
+    },
+    "Caddy may request or renew certificates from the configured ACME CA. DNSPod sites may create temporary DNS challenge records using the saved credential.": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Caddy 可能会向配置的 ACME 证书机构申请或续期证书。DNSPod 站点可能会使用已保存的凭据创建临时 DNS 验证记录。"
+          }
+        }
+      }
+    },
+    "Caddy now starts with Caddyman and stops when Caddyman quits.": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Caddy 现在随 Caddyman 启动，并在正常退出 Caddyman 时停止。"
+          }
+        }
+      }
+    },
+    "Caddy rejected the reload: %@": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Caddy 拒绝了重载：%@"
+          }
+        }
+      }
+    },
+    "Caddy reported a certificate error: %@": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Caddy 报告证书错误：%@"
+          }
+        }
+      }
+    },
+    "Caddy reports that it obtained a certificate.": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Caddy 报告已获取证书。"
+          }
+        }
+      }
+    },
+    "Caddy returned a valid but empty module list.": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Caddy 返回了有效但为空的模块列表。"
+          }
+        }
+      }
+    },
+    "Caddy returned an empty module list.": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Caddy 返回的模块列表为空。"
+          }
+        }
+      }
+    },
+    "Caddy returned an empty version string.": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Caddy 返回的版本信息为空。"
+          }
+        }
+      }
+    },
+    "Caddy returned an unreadable adapted configuration.": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Caddy 返回的转换后配置无法读取。"
+          }
+        }
+      }
+    },
+    "Caddy returned data that is not valid JSON.": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Caddy 返回的数据不是有效的 JSON。"
+          }
+        }
+      }
+    },
+    "Caddy runtime": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Caddy 运行状态"
+          }
+        }
+      }
+    },
+    "Caddy service": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Caddy 服务"
+          }
+        }
+      }
+    },
+    "Caddy service and site status": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Caddy 服务与站点状态"
+          }
+        }
+      }
+    },
+    "Caddy Settings": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Caddy 设置"
+          }
+        }
+      }
+    },
+    "Caddy started but did not open its loopback Admin API. Caddyman stopped its process.": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Caddy 已启动但未开放本机回环管理 API。Caddyman 已停止自己启动的进程。"
+          }
+        }
+      }
+    },
+    "Caddy validated the candidate configuration successfully.": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Caddy 已成功校验候选配置。"
+          }
+        }
+      }
+    },
+    "Caddy validation failed with exit status %d.": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Caddy 校验失败，退出状态码：%d。"
+          }
+        }
+      }
+    },
+    "Caddy version command exited with status %d. Check the selected binary.": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Caddy 版本命令退出，状态码为 %d。请检查所选二进制文件。"
+          }
+        }
+      }
+    },
+    "Caddy version was detected, but list-modules exited with status %d.": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "已检测到 Caddy 版本，但 list-modules 命令退出，状态码为 %d。"
+          }
+        }
+      }
+    },
+    "Caddy version was detected, but the module query failed: %@": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "已检测到 Caddy 版本，但无法查询模块：%@"
+          }
+        }
+      }
+    },
+    "Caddy was not found in the standard Homebrew locations. Choose an existing Caddy executable in Settings.": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "未在常见的 Homebrew 路径中找到 Caddy。请在设置中选择已有的 Caddy 可执行文件。"
+          }
+        }
+      }
+    },
+    "Caddy will no longer start automatically with Caddyman.": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Caddy 将不再随 Caddyman 自动启动。"
+          }
+        }
+      }
+    },
+    "Caddyfile": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Caddyfile"
+          }
+        }
+      }
+    },
+    "Caddyfile (read only)": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Caddyfile（只读）"
+          }
+        }
+      }
+    },
+    "Caddyfile migration preview": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Caddyfile 迁移预览"
+          }
+        }
+      }
+    },
+    "Caddyman": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Caddyman"
+          }
+        }
+      }
+    },
+    "Caddyman already has a Caddy process running.": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Caddyman 已有一个 Caddy 进程在运行。"
+          }
+        }
+      }
+    },
+    "Caddyman app": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Caddyman 应用"
+          }
+        }
+      }
+    },
+    "Caddyman checks the selected executable with `caddy version` and `caddy list-modules --json`. The DNSPod option is available only when the binary reports `dns.providers.dnspod`.": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Caddyman 会检查所选二进制文件的版本和模块列表。只有报告包含 `dns.providers.dnspod` 模块时，才支持 DNSPod。"
+          }
+        }
+      }
+    },
+    "Caddyman could not access the DNSPod item in Keychain.": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Caddyman 无法访问钥匙串中的 DNSPod 项目。"
+          }
+        }
+      }
+    },
+    "Caddyman could not atomically replace the target Caddyfile. The original file was kept.": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Caddyman 无法原子替换目标 Caddyfile，原文件已保留。"
+          }
+        }
+      }
+    },
+    "Caddyman could not create a protected backup of the target Caddyfile.": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Caddyman 无法创建受保护的目标 Caddyfile 备份。"
+          }
+        }
+      }
+    },
+    "Caddyman could not start its Caddy process. Check the Caddyfile and binary.": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Caddyman 无法启动自己的 Caddy 进程。请检查 Caddyfile 和二进制文件。"
+          }
+        }
+      }
+    },
+    "Caddyman could not stop the Caddy process it started.": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Caddyman 无法停止自己启动的 Caddy 进程。"
+          }
+        }
+      }
+    },
+    "Caddyman did not find a listener on the default local Admin API port. Caddy may use a custom port or have its Admin API disabled.": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Caddyman 未在默认本机管理 API 端口上发现监听程序。Caddy 可能使用了自定义端口，或已禁用管理 API。"
+          }
+        }
+      }
+    },
+    "Caddyman does not own a running Caddy process to reload.": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Caddyman 没有可重载的自有 Caddy 进程。"
+          }
+        }
+      }
+    },
+    "Caddyman does not start, stop, reload, or take over a Caddy process in this version.": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "此版本的 Caddyman 不会启动、停止、重载或接管 Caddy 进程。"
+          }
+        }
+      }
+    },
+    "Caddyman is quitting and cannot start Caddy.": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Caddyman 正在退出，无法启动 Caddy。"
+          }
+        }
+      }
+    },
+    "Caddyman login setting updated.": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Caddyman 登录启动设置已更新。"
+          }
+        }
+      }
+    },
+    "Caddyman never downloads or replaces Caddy. Select an existing executable you trust.": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Caddyman 不会下载或替换 Caddy。请选择你信任的现有可执行文件。"
+          }
+        }
+      }
+    },
+    "Caddyman Overview": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Caddyman 概览"
+          }
+        }
+      }
+    },
+    "Caddyman process": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Caddyman 进程"
+          }
+        }
+      }
+    },
+    "Caddyman requires the Admin API on the default local port 2019. Remove remote or disabled admin settings from the Caddyfile.": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Caddyman 要求管理 API 使用默认本机 2019 端口。请移除 Caddyfile 中的远程或禁用管理接口设置。"
+          }
+        }
+      }
+    },
+    "Caddyman restarted its Caddy process.": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Caddyman 已重启其 Caddy 进程。"
+          }
+        }
+      }
+    },
+    "Caddyman restarted its login service.": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Caddyman 已重启登录服务。"
+          }
+        }
+      }
+    },
+    "Caddyman started its login service.": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Caddyman 已启动登录服务。"
+          }
+        }
+      }
+    },
+    "Caddyman started its own Caddy process.": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Caddyman 已启动自己的 Caddy 进程。"
+          }
+        }
+      }
+    },
+    "Caddyman stayed open so you can review the service status.": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Caddyman 已保持打开，请检查服务状态。"
+          }
+        }
+      }
+    },
+    "Caddyman stopped the Caddy process it started.": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Caddyman 已停止自己启动的 Caddy 进程。"
+          }
+        }
+      }
+    },
+    "Caddyman will validate again, create a protected backup, atomically update the target file, and reload only the Caddy process it started. If reload fails, it will restore the previous file and try to reload it.": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Caddyman 会再次校验配置、创建受保护的备份并原子更新目标文件；只会重载自己启动的 Caddy 进程。重载失败时会恢复旧文件并尝试重新加载。"
+          }
+        }
+      }
+    },
+    "Caddyman will validate the candidate again, save a protected copy of the current target, and atomically replace only that file. The imported source file will not be changed.": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Caddyman 会再次校验候选配置，创建受保护的当前目标备份，然后仅原子替换目标文件。不会更改导入源文件。"
+          }
+        }
+      }
+    },
+    "Caddyman's Caddy LaunchAgent is not installed.": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "尚未安装 Caddyman 的 Caddy LaunchAgent。"
+          }
+        }
+      }
+    },
+    "Caddyman-owned process": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "由 Caddyman 启动的进程"
+          }
+        }
+      }
+    },
+    "Caddyman: checking local Caddy status": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Caddyman：正在检查本机 Caddy 状态"
+          }
+        }
+      }
+    },
+    "Caddyman: local Admin API port is open; ownership unknown": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Caddyman：本机管理 API 端口已开放，进程归属未知"
+          }
+        }
+      }
+    },
+    "Caddyman: managed Caddy is running": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Caddyman：托管的 Caddy 正在运行"
+          }
+        }
+      }
+    },
+    "Caddyman: no response on the default local Admin API port": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Caddyman：默认本机管理 API 端口无响应"
+          }
+        }
+      }
+    },
+    "Caddyman: status not checked": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Caddyman：尚未检查状态"
+          }
+        }
+      }
+    },
+    "Cancel": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "取消"
+          }
+        }
+      }
+    },
+    "Certificate issuance": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "证书签发"
+          }
+        }
+      }
+    },
+    "Certificate mode": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "证书模式"
+          }
+        }
+      }
+    },
+    "Checking Caddy…": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "正在检查 Caddy…"
+          }
+        }
+      }
+    },
+    "Checking selected Caddy binary…": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "正在检查所选的 Caddy 二进制文件…"
+          }
+        }
+      }
+    },
+    "Checking…": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "正在检查…"
+          }
+        }
+      }
+    },
+    "Choose a Caddy binary or refresh to detect a Homebrew installation.": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "请选择 Caddy 二进制文件，或刷新以查找 Homebrew 安装。"
+          }
+        }
+      }
+    },
+    "Choose a Caddyfile in Caddy settings to edit managed sites.": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "请在 Caddy 设置中选择 Caddyfile 以编辑托管站点。"
+          }
+        }
+      }
+    },
+    "Choose a Caddyfile in Caddy settings to view its managed sites.": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "请在 Caddy 设置中选择 Caddyfile 以查看托管站点。"
+          }
+        }
+      }
+    },
+    "Choose a Caddyfile in General settings to edit managed sites.": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "请在通用设置中选择 Caddyfile 以编辑托管站点。"
+          }
+        }
+      }
+    },
+    "Choose a Caddyfile in Settings to view its managed sites.": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "前往设置选择 Caddyfile，以查看其中的托管站点。"
+          }
+        }
+      }
+    },
+    "Choose a Caddyfile to view the Caddyman-managed region.": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "选择一个 Caddyfile，以查看由 Caddyman 管理的区域。"
+          }
+        }
+      }
+    },
+    "Choose a different source and target Caddyfile.": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "源 Caddyfile 和目标 Caddyfile 不能是同一个文件。"
+          }
+        }
+      }
+    },
+    "Choose a target Caddyfile before previewing the import.": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "预览导入前，请先选择目标 Caddyfile。"
+          }
+        }
+      }
+    },
+    "Choose an existing Caddy executable in Settings.": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "请在设置中选择已有的 Caddy 可执行文件。"
+          }
+        }
+      }
+    },
+    "Choose and load a target Caddyfile before editing sites.": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "请先选择并载入目标 Caddyfile，再编辑站点。"
+          }
+        }
+      }
+    },
+    "Choose Caddyfile…": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "选择 Caddyfile…"
+          }
+        }
+      }
+    },
+    "Choose Caddy…": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "选择 Caddy…"
+          }
+        }
+      }
+    },
+    "Choose source Caddyfile…": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "选择来源 Caddyfile…"
+          }
+        }
+      }
+    },
+    "Choose what opens when you log in": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "选择登录后启动的内容"
+          }
+        }
+      }
+    },
+    "Clear": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "清除"
+          }
+        }
+      }
+    },
+    "Compare managed region": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "比较托管区域"
+          }
+        }
+      }
+    },
+    "Complete proposed diff": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "完整候选差异"
+          }
+        }
+      }
+    },
+    "Continue to Diff Review": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "继续查看差异"
+          }
+        }
+      }
+    },
+    "Could not detect": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "无法检测"
+          }
+        }
+      }
+    },
+    "Could not manage the Caddyman LaunchAgent: %@": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "无法管理 Caddyman LaunchAgent：%@"
+          }
+        }
+      }
+    },
+    "Could not prepare site changes": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "无法准备站点更改"
+          }
+        }
+      }
+    },
+    "Could not read the Caddyfile: %@": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "无法读取 Caddyfile：%@"
+          }
+        }
+      }
+    },
+    "Create or repair the Caddyman managed region before editing sites.": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "请先创建或修复 Caddyman 托管区域，再编辑站点。"
+          }
+        }
+      }
+    },
+    "Delete": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "删除"
+          }
+        }
+      }
+    },
+    "Delete site": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "删除站点"
+          }
+        }
+      }
+    },
+    "Delete this site?": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "要删除此站点吗？"
+          }
+        }
+      }
+    },
+    "Disable app login": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "关闭应用登录启动"
+          }
+        }
+      }
+    },
+    "Disable automatic start": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "关闭自动启动"
+          }
+        }
+      }
+    },
+    "DNS challenge credentials": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "DNS 验证凭据"
+          }
+        }
+      }
+    },
+    "DNS-01 certificates": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "DNS-01 证书"
+          }
+        }
+      }
+    },
+    "DNSPod": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "DNSPod"
+          }
+        }
+      }
+    },
+    "DNSPod credential": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "DNSPod 凭据"
+          }
+        }
+      }
+    },
+    "DNSPod DNS provider": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "DNSPod DNS 服务商"
+          }
+        }
+      }
+    },
+    "DNSPod DNS-01": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "DNSPod DNS-01"
+          }
+        }
+      }
+    },
+    "DNSPod DNS-01 is available only when the selected Caddy binary includes the DNSPod module. Site certificate mode is configured from the Sites page.": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "只有所选 Caddy 二进制文件包含 DNSPod 模块时，才能使用 DNSPod DNS-01。请在“站点”页配置证书模式。"
+          }
+        }
+      }
+    },
+    "DNSPod DNS-01 requires a public domain name, not an IP address or localhost.": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "DNSPod DNS-01 需要公网域名，不能使用 IP 地址或 localhost。"
+          }
+        }
+      }
+    },
+    "DNSPod Keychain credential": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "DNSPod 钥匙串凭据"
+          }
+        }
+      }
+    },
+    "DNSPod module": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "DNSPod 模块"
+          }
+        }
+      }
+    },
+    "DNSPod sites require a selected Caddy binary that includes dns.providers.dnspod.": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "DNSPod 站点需要所选 Caddy 二进制文件包含 dns.providers.dnspod 模块。"
+          }
+        }
+      }
+    },
+    "DNSPod token removed from Keychain.": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "DNSPod Token 已从钥匙串移除。"
+          }
+        }
+      }
+    },
+    "DNSPod token saved to Keychain. The value is not shown again.": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "DNSPod Token 已保存到钥匙串。不会再次显示其内容。"
+          }
+        }
+      }
+    },
+    "Does not open at login": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "登录时不打开"
+          }
+        }
+      }
+    },
+    "Done": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "完成"
+          }
+        }
+      }
+    },
+    "Duplicate hostnames found: %@": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "发现重复的主机名：%@"
+          }
+        }
+      }
+    },
+    "Edit": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "编辑"
+          }
+        }
+      }
+    },
+    "Enable and start Caddy": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "启用并启动 Caddy"
+          }
+        }
+      }
+    },
+    "Enable and start now": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "启用并立即启动"
+          }
+        }
+      }
+    },
+    "Enable Caddy at login": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "登录时启动 Caddy"
+          }
+        }
+      }
+    },
+    "Enable Caddy at login?": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "启用 Caddy 登录启动？"
+          }
+        }
+      }
+    },
+    "Enabled after unexpected exit": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "异常退出后自动恢复"
+          }
+        }
+      }
+    },
+    "Enter a valid hostname or IP address.": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "请输入有效的主机名或 IP 地址。"
+          }
+        }
+      }
+    },
+    "Enter an HTTP or HTTPS upstream address without a path or credentials.": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "请输入不带路径或凭据的 HTTP 或 HTTPS 上游地址。"
+          }
+        }
+      }
+    },
+    "Enter the DNSPod token or save it to Keychain first.": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "请输入 DNSPod Token，或先将其保存到钥匙串。"
+          }
+        }
+      }
+    },
+    "Executable and configuration file": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "可执行文件与配置文件"
+          }
+        }
+      }
+    },
+    "External changes detected": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "检测到外部更改"
+          }
+        }
+      }
+    },
+    "General": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "通用"
+          }
+        }
+      }
+    },
+    "General Settings": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "通用设置"
+          }
+        }
+      }
+    },
+    "Hostname": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "主机名"
+          }
+        }
+      }
+    },
+    "HTTP only": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "仅 HTTP"
+          }
+        }
+      }
+    },
+    "HTTP-only sites cannot use an ACME certificate environment.": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "仅 HTTP 站点不能设置 ACME 证书环境。"
+          }
+        }
+      }
+    },
+    "Import Caddyfile": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "导入 Caddyfile"
+          }
+        }
+      }
+    },
+    "Import preview": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "导入预览"
+          }
+        }
+      },
+      "comment": "Settings section for a read-only Caddyfile migration preview."
+    },
+    "Imported site blocks": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "已导入的站点块"
+          }
+        }
+      }
+    },
+    "Independent Caddy service removed. The Caddyfile and certificates were kept.": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "已移除独立 Caddy 服务；Caddyfile 和证书已保留。"
+          }
+        }
+      }
+    },
+    "Installed, currently stopped": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "已安装，当前已停止"
+          }
+        }
+      }
+    },
+    "Keychain environment variable": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "钥匙串环境变量"
+          }
+        }
+      }
+    },
+    "Keychain read succeeded. The DNSPod token is available without displaying it.": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "钥匙串读取成功。DNSPod Token 可用，且未显示其内容。"
+          }
+        }
+      }
+    },
+    "Last check": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "上次检查"
+          }
+        }
+      }
+    },
+    "Last checked %@": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "上次检查：%@"
+          }
+        }
+      }
+    },
+    "Last service exit code: %d": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "服务上次退出码：%d"
+          }
+        }
+      }
+    },
+    "Latest read": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "最新读取"
+          }
+        }
+      }
+    },
+    "Latest runtime log": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "最近运行日志"
+          }
+        }
+      }
+    },
+    "Let's Encrypt production": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Let's Encrypt 生产环境"
+          }
+        }
+      }
+    },
+    "Let's Encrypt staging": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Let's Encrypt 测试环境"
+          }
+        }
+      }
+    },
+    "Lifecycle": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "生命周期"
+          }
+        }
+      }
+    },
+    "Line endings": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "换行符格式"
+          }
+        }
+      }
+    },
+    "Local admin port": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "本机管理端口"
+          }
+        }
+      }
+    },
+    "Local port 2019": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "本机端口 2019"
+          }
+        }
+      }
+    },
+    "Login service": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "登录服务"
+          }
+        }
+      }
+    },
+    "Manage Caddy reverse proxy sites and the Caddy process started by Caddyman.": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "管理 Caddy 反向代理站点，以及由 Caddyman 启动的 Caddy 进程。"
+          }
+        }
+      }
+    },
+    "Managed Caddy is running": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Caddyman 管理的 Caddy 正在运行"
+          }
+        }
+      }
+    },
+    "Managed Caddy is stopped": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Caddyman 管理的 Caddy 已停止"
+          }
+        }
+      }
+    },
+    "Managed region is valid": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "托管区域标记有效"
+          }
+        }
+      }
+    },
+    "Managed sites": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "托管站点"
+          }
+        }
+      }
+    },
+    "Managed sites: %d": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "托管站点：%d"
+          }
+        }
+      }
+    },
+    "Manual start": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "手动启动"
+          }
+        }
+      }
+    },
+    "Migration applied. Backup created at %@.": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "迁移已应用。备份位于：%@。"
+          }
+        }
+      }
+    },
+    "Mixed": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "混合"
+          }
+        }
+      }
+    },
+    "Needs approval": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "等待批准"
+          }
+        }
+      }
+    },
+    "No Caddyfile selected.": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "尚未选择 Caddyfile。"
+          }
+        }
+      }
+    },
+    "No Caddyman-managed region": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "没有 Caddyman 托管区域"
+          }
+        }
+      }
+    },
+    "No certificate-related log appeared within two minutes. Caddy may still be working; check its recent runtime logs.": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "两分钟内没有出现证书相关日志。Caddy 可能仍在处理，请查看最近运行日志。"
+          }
+        }
+      }
+    },
+    "No changes are written until you validate and confirm.": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "校验并确认前不会写入任何更改。"
+          }
+        }
+      }
+    },
+    "No DNSPod token is stored in Keychain.": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "钥匙串中没有 DNSPod Token。"
+          }
+        }
+      }
+    },
+    "No executable found at /opt/homebrew/bin/caddy or /usr/local/bin/caddy.": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "在 /opt/homebrew/bin/caddy 或 /usr/local/bin/caddy 均未找到可执行文件。"
+          }
+        }
+      }
+    },
+    "No managed sites": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "没有托管站点"
+          }
+        }
+      }
+    },
+    "No managed sites are inside the Caddyman region.": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Caddyman 托管区域中没有站点。"
+          }
+        }
+      }
+    },
+    "No managed-region content.": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "托管区域没有内容。"
+          }
+        }
+      }
+    },
+    "No response on 127.0.0.1:2019": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "127.0.0.1:2019 无响应"
+          }
+        }
+      }
+    },
+    "No source Caddyfile selected.": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "尚未选择来源 Caddyfile。"
+          }
+        }
+      }
+    },
+    "None": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "无"
+          }
+        }
+      }
+    },
+    "Not checked": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "尚未检查"
+          }
+        }
+      }
+    },
+    "Not checked yet": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "尚未检查"
+          }
+        }
+      }
+    },
+    "Not installed": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "未安装"
+          }
+        }
+      }
+    },
+    "OK": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "好"
+          }
+        }
+      }
+    },
+    "Open app at login": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "登录时打开应用"
+          }
+        }
+      }
+    },
+    "Open Overview": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "打开概览"
+          }
+        }
+      }
+    },
+    "Opens at login": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "登录时打开"
+          }
+        }
+      }
+    },
+    "Opens Caddyman in the menu bar when you log in. If Caddy follows Caddyman, it starts after the app opens.": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "登录后在菜单栏打开 Caddyman。若启用 Caddy 跟随应用，Caddy 会在应用打开后启动。"
+          }
+        }
+      }
+    },
+    "Opens the menu bar app when you log in. This setting is independent of the Caddy service.": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "登录时打开菜单栏应用。此设置与 Caddy 服务独立。"
+          }
+        }
+      }
+    },
+    "Optional port": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "端口（可选）"
+          }
+        }
+      }
+    },
+    "Overview": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "概览"
+          }
+        }
+      }
+    },
+    "Paused after manual stop": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "手动停止后已暂停"
+          }
+        }
+      }
+    },
+    "Plain text in Caddyfile": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "明文写入 Caddyfile"
+          }
+        }
+      }
+    },
+    "Port %d is open": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "端口 %d 正在监听"
+          }
+        }
+      }
+    },
+    "Preview adding sites from an existing Caddyfile to the selected target.": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "预览如何将现有 Caddyfile 中的站点添加到所选目标文件。"
+          }
+        }
+      }
+    },
+    "Preview managed region": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "预览托管区域"
+          }
+        }
+      }
+    },
+    "Preview merge": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "预览合并"
+          }
+        }
+      }
+    },
+    "Preview only. No file has been changed.": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "仅供预览。尚未更改任何文件。"
+          }
+        }
+      }
+    },
+    "Previous independent service": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "旧版独立服务"
+          }
+        }
+      }
+    },
+    "Previous read": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "上次读取"
+          }
+        }
+      }
+    },
+    "Quit Caddyman": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "退出 Caddyman"
+          }
+        }
+      }
+    },
+    "Read-only Caddy status": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Caddy 只读状态"
+          }
+        }
+      }
+    },
+    "Read-only status": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "只读状态"
+          }
+        }
+      }
+    },
+    "Reading Caddyfile…": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "正在读取 Caddyfile…"
+          }
+        }
+      }
+    },
+    "Reading this file does not change it. Site changes require a complete diff review, Caddy validation, backup, and explicit apply confirmation.": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "读取文件不会修改文件。站点更改必须先检查完整差异、通过 Caddy 校验、创建备份并明确确认应用。"
+          }
+        }
+      }
+    },
+    "Recovery": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "恢复策略"
+          }
+        }
+      }
+    },
+    "Refresh": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "刷新"
+          }
+        }
+      }
+    },
+    "Refresh Detection": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "刷新检测"
+          }
+        }
+      }
+    },
+    "Reload": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "重新读取"
+          }
+        }
+      }
+    },
+    "Reload Caddyfile": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "重新载入 Caddyfile"
+          }
+        }
+      }
+    },
+    "Reload failed and the previous Caddyfile was restored: %@": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "重载失败且旧 Caddyfile 已恢复：%@"
+          }
+        }
+      }
+    },
+    "Reload failed. Caddyman could not safely restore the previous file: %@": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "重载失败。Caddyman 无法安全恢复旧文件：%@"
+          }
+        }
+      }
+    },
+    "Reload failed. The previous Caddyfile was restored, but the running Caddy process may need a manual restart.": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "重载失败，旧 Caddyfile 已恢复，但运行中的 Caddy 可能需要手动重启。"
+          }
+        }
+      }
+    },
+    "Reload failed. The previous Caddyfile was restored: %@": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "重载失败，旧 Caddyfile 已恢复：%@"
+          }
+        }
+      }
+    },
+    "Remove independent service": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "移除独立服务"
+          }
+        }
+      }
+    },
+    "Remove it before enabling app-managed startup. Its Caddyfile and certificates will be kept.": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "启用应用托管启动前请先移除它；Caddyfile 和证书会保留。"
+          }
+        }
+      }
+    },
+    "Remove login service": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "移除登录服务"
+          }
+        }
+      }
+    },
+    "Remove the old independent Caddy login service before using app-managed startup.": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "使用应用托管启动前，请先移除旧版独立 Caddy 登录服务。"
+          }
+        }
+      }
+    },
+    "Remove the previous independent service in Startup before using app-managed Caddy.": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "使用应用托管的 Caddy 前，请先在“启动项”中移除旧版独立服务。"
+          }
+        }
+      }
+    },
+    "Remove token": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "移除 Token"
+          }
+        }
+      }
+    },
+    "Restart": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "重启"
+          }
+        }
+      }
+    },
+    "Restart Caddy": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "重启 Caddy"
+          }
+        }
+      }
+    },
+    "Restart Caddy?": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "重启 Caddy？"
+          }
+        }
+      }
+    },
+    "Restart the Caddy login service?": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "重启 Caddy 登录服务？"
+          }
+        }
+      }
+    },
+    "Reverse proxy sites are stored in the selected Caddyfile. Caddyman preserves text outside its managed region.": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "反向代理站点保存在所选 Caddyfile 中。Caddyman 会原样保留托管区域外的内容。"
+          }
+        }
+      }
+    },
+    "Reverse proxy sites in the selected Caddyfile": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "所选 Caddyfile 中的反向代理站点"
+          }
+        }
+      }
+    },
+    "Review Caddyfile changes": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "检查 Caddyfile 更改"
+          }
+        }
+      }
+    },
+    "Review Changes…": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "检查更改…"
+          }
+        }
+      }
+    },
+    "Review Deletion…": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "检查删除更改…"
+          }
+        }
+      }
+    },
+    "Running": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "运行中"
+          }
+        }
+      }
+    },
+    "Running at login": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "登录服务运行中"
+          }
+        }
+      }
+    },
+    "Runs Caddy after login and keeps it running if it exits unexpectedly. Closing Caddyman does not stop this service.": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "登录后启动 Caddy；异常退出时自动恢复。关闭 Caddyman 不会停止此服务。"
+          }
+        }
+      }
+    },
+    "Save to Keychain": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "保存到钥匙串"
+          }
+        }
+      }
+    },
+    "Selected Caddyfile": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "所选 Caddyfile"
+          }
+        }
+      }
+    },
+    "Selected file is not executable: %@": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "所选文件不可执行：%@"
+          }
+        }
+      }
+    },
+    "Selected path is not executable": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "所选路径不可执行"
+          }
+        }
+      }
+    },
+    "Service": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "服务"
+          }
+        }
+      }
+    },
+    "Service health and controls": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "服务状态与控制"
+          }
+        }
+      }
+    },
+    "Service mode": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "服务模式"
+          }
+        }
+      }
+    },
+    "Service status": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "服务状态"
+          }
+        }
+      }
+    },
+    "Settings": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "设置"
+          }
+        }
+      }
+    },
+    "Settings…": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "设置…"
+          }
+        }
+      }
+    },
+    "Site": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "站点"
+          }
+        }
+      }
+    },
+    "Site configuration saved and reloaded. Backup created at %@.": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "站点配置已保存并重载。备份位于：%@。"
+          }
+        }
+      }
+    },
+    "Site configuration saved. Caddyman is not running this Caddyfile, so no service was reloaded. Backup created at %@.": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "站点配置已保存。Caddyman 未运行此 Caddyfile 对应的服务，因此未重载服务。备份位于：%@。"
+          }
+        }
+      }
+    },
+    "Site configuration was restored because readback failed: %@": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "由于配置回读失败，已恢复旧站点配置：%@"
+          }
+        }
+      }
+    },
+    "Site readback failed and Caddyman could not safely restore the previous file: %@": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "站点配置回读失败，且 Caddyman 无法安全恢复旧文件：%@"
+          }
+        }
+      }
+    },
+    "Sites": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "站点"
+          }
+        }
+      }
+    },
+    "Sites to import: %d": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "待导入站点：%d"
+          }
+        }
+      }
+    },
+    "Some interface patterns were adapted from Caddock with permission. Caddyman is an independent project.": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "部分界面模式经许可参考并改编自 Caddock。Caddyman 是独立项目。"
+          }
+        }
+      }
+    },
+    "Source Caddyfile": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "源 Caddyfile"
+          }
+        }
+      }
+    },
+    "Staging certificates are intentionally not trusted by browsers.": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "测试环境证书不会被浏览器信任。"
+          }
+        }
+      }
+    },
+    "Start Caddy": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "启动 Caddy"
+          }
+        }
+      }
+    },
+    "Start Caddy with Caddyman": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Caddy 随 Caddyman 启动"
+          }
+        }
+      }
+    },
+    "Start Caddy with Caddyman?": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "让 Caddy 随 Caddyman 启动？"
+          }
+        }
+      }
+    },
+    "Start opens only a process launched by Caddyman and requires an available loopback Admin API. An existing listener will never be taken over.": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "启动操作只会创建由 Caddyman 启动的进程，并要求本机回环管理 API 可用。Caddyman 不会接管已有监听进程。"
+          }
+        }
+      }
+    },
+    "Start the selected Caddy configuration?": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "要启动所选 Caddy 配置吗？"
+          }
+        }
+      }
+    },
+    "Start together, stop together": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "一起启动，一起停止"
+          }
+        }
+      }
+    },
+    "Starting Caddy…": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "正在启动 Caddy…"
+          }
+        }
+      }
+    },
+    "Starts and stops with Caddyman": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "随 Caddyman 启停"
+          }
+        }
+      }
+    },
+    "Starts with the app": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "随应用启动"
+          }
+        }
+      }
+    },
+    "Startup": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "启动项"
+          }
+        }
+      }
+    },
+    "Stop Caddy": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "停止 Caddy"
+          }
+        }
+      }
+    },
+    "Stop Caddyman Caddy": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "停止 Caddyman 启动的 Caddy"
+          }
+        }
+      }
+    },
+    "Stop Caddyman's managed Caddy before applying a migration. Use the Sites tab for live site changes.": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "应用迁移前请先停止 Caddyman 管理的 Caddy。服务运行时的站点更改请使用“站点”标签页。"
+          }
+        }
+      }
+    },
+    "Stopped": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "已停止"
+          }
+        }
+      }
+    },
+    "Stopping Caddy…": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "正在停止 Caddy…"
+          }
+        }
+      }
+    },
+    "Store the APP_ID,APP_TOKEN value in macOS Keychain. Caddyman injects it into its own Caddy child process only; it is never written to preferences, command arguments, logs, or a LaunchAgent.": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "将 APP_ID,APP_TOKEN 保存到 macOS 钥匙串。Caddyman 只会将其注入自己启动的 Caddy 子进程，不会写入偏好设置、命令参数、日志或 LaunchAgent。"
+          }
+        }
+      }
+    },
+    "Store this DNSPod token in plain text?": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "要将 DNSPod Token 以明文保存吗？"
+          }
+        }
+      }
+    },
+    "Target Caddyfile": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "目标 Caddyfile"
+          }
+        }
+      }
+    },
+    "Test Keychain Read": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "测试钥匙串读取"
+          }
+        }
+      }
+    },
+    "The adapted Caddy configuration is too large to inspect safely.": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "转换后的 Caddy 配置过大，无法安全检查。"
+          }
+        }
+      }
+    },
+    "The Caddy command did not finish before the timeout.": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Caddy 命令未能在超时时限内完成。"
+          }
+        }
+      }
+    },
+    "The Caddyfile changed outside Caddyman. Reload it and review a fresh preview before saving.": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Caddyfile 已在 Caddyman 外部更改。请重新读取并检查新的预览后再保存。"
+          }
+        }
+      }
+    },
+    "The Caddyfile changed outside Caddyman. Reload it before editing.": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Caddyfile 已在 Caddyman 外部更改。请重新读取后再编辑。"
+          }
+        }
+      }
+    },
+    "The Caddyfile contains duplicate Caddyman site IDs. No site changes were saved.": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Caddyfile 中存在重复的 Caddyman 站点 ID，未保存任何更改。"
+          }
+        }
+      }
+    },
+    "The Caddyfile content changed since it was first read. This view shows the latest file contents.": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "自首次读取后，Caddyfile 内容发生了变化。此处显示的是文件最新内容。"
+          }
+        }
+      }
+    },
+    "The Caddyfile is not valid UTF-8 text.": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Caddyfile 不是有效的 UTF-8 文本。"
+          }
+        }
+      }
+    },
+    "The Caddyfile stores `{env.DNSPOD_TOKEN}`. Save the token in General settings; Caddyman injects it only into its child Caddy process.": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Caddyfile 中会使用 `{env.DNSPOD_TOKEN}`。请在通用设置中保存 Token；Caddyman 只会将其注入自己启动的 Caddy 子进程。"
+          }
+        }
+      }
+    },
+    "The check only probes the local port and does not change Caddy configuration.": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "此检测仅探测本机端口，不会更改 Caddy 配置。"
+          }
+        }
+      }
+    },
+    "The complete diff will show a redacted token, but the chosen Caddyfile will contain the real token in plain text.": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "完整差异会遮罩 Token，但所选 Caddyfile 中会包含明文 Token。"
+          }
+        }
+      }
+    },
+    "The DNSPod token must use the APP_ID,APP_TOKEN format.": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "DNSPod Token 格式必须为 APP_ID,APP_TOKEN。"
+          }
+        }
+      }
+    },
+    "The executable could not be started. Check that the selected file is a valid executable.": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "无法启动该可执行文件。请确认所选文件有效且可执行。"
+          }
+        }
+      }
+    },
+    "The LaunchAgent configuration is incomplete or unsafe.": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "LaunchAgent 配置不完整或不安全。"
+          }
+        }
+      }
+    },
+    "The local Admin API is responding for Caddyman's managed process.": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "本机管理 API 正在响应 Caddyman 托管的进程。"
+          }
+        }
+      }
+    },
+    "The login service is running. Certificate activity continues in the background.": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "登录服务正在运行，证书操作会在后台继续。"
+          }
+        }
+      }
+    },
+    "The login service was reloaded. Certificate activity continues in the background.": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "登录服务已重载，证书操作会在后台继续。"
+          }
+        }
+      }
+    },
+    "The managed-region end marker appears before its start marker.": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "托管区域的结束标记出现在起始标记之前。"
+          }
+        }
+      }
+    },
+    "The managed-region end marker appears more than once.": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "托管区域的结束标记重复出现。"
+          }
+        }
+      }
+    },
+    "The managed-region end marker is missing.": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "缺少托管区域的结束标记。"
+          }
+        }
+      }
+    },
+    "The managed-region start marker appears more than once.": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "托管区域的起始标记重复出现。"
+          }
+        }
+      }
+    },
+    "The managed-region start marker is missing.": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "缺少托管区域的起始标记。"
+          }
+        }
+      }
+    },
+    "The previous Caddyfile was restored, but its reload also failed: %@": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "旧 Caddyfile 已恢复，但重新加载也失败：%@"
+          }
+        }
+      }
+    },
+    "The saved Caddyfile did not read back as the proposed site configuration.": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "保存后的 Caddyfile 与预期站点配置不一致。"
+          }
+        }
+      }
+    },
+    "The selected Caddy binary must contain dns.providers.dnspod before DNSPod can be used.": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "所选 Caddy 二进制文件必须包含 dns.providers.dnspod 模块才能使用 DNSPod。"
+          }
+        }
+      }
+    },
+    "The selected Caddy path is missing or is not executable": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "所选 Caddy 路径不存在或不可执行"
+          }
+        }
+      }
+    },
+    "The selected Caddy path is missing or is not executable: %@": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "所选 Caddy 路径不存在或不可执行：%@"
+          }
+        }
+      }
+    },
+    "The selected Caddyfile is not a regular file, so Caddyman cannot replace it safely.": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "所选 Caddyfile 不是普通文件，Caddyman 无法安全替换。"
+          }
+        }
+      }
+    },
+    "The selected target Caddyfile changed. Reopen the migration preview before applying.": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "所选目标 Caddyfile 已更改。请重新打开迁移预览后再应用。"
+          }
+        }
+      }
+    },
+    "The selected target Caddyfile changed. Reopen the site editor before applying.": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "所选目标 Caddyfile 已更改。请重新打开站点编辑器后再应用。"
+          }
+        }
+      }
+    },
+    "The site port must be a number from 1 to 65535.": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "站点端口必须是 1 到 65535 之间的数字。"
+          }
+        }
+      }
+    },
+    "The site will be removed from the Caddyman managed region after you review, validate, and confirm the complete diff.": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "检查并校验完整差异后，确认即可从 Caddyman 托管区域移除此站点。"
+          }
+        }
+      }
+    },
+    "The source contains top-level content other than site blocks. Caddyman cannot safely place it in the managed region.": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "源文件包含站点块以外的顶层内容，Caddyman 无法安全地将其放入托管区域。"
+          }
+        }
+      }
+    },
+    "The source file does not contain any importable site blocks.": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "源文件中没有可导入的站点块。"
+          }
+        }
+      }
+    },
+    "The source managed-region markers are invalid: %@": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "源文件的托管区域标记无效：%@"
+          }
+        }
+      }
+    },
+    "The target Caddyfile changed after the preview. Reload it and review a new diff before applying.": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "预览后目标 Caddyfile 已更改。请重新读取文件并检查新的差异后再应用。"
+          }
+        }
+      }
+    },
+    "The target managed-region markers are invalid: %@": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "目标文件的托管区域标记无效：%@"
+          }
+        }
+      }
+    },
+    "The token will be written in plain text to the Caddyfile. Anyone who can read that file can use it.": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Token 将以明文写入 Caddyfile。任何能读取该文件的人都可以使用它。"
+          }
+        }
+      }
+    },
+    "The update failed and the previous service could not be restored.": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "更新失败，且无法恢复原有服务。"
+          }
+        }
+      }
+    },
+    "These Caddyfile blocks are shown for reference and preserved verbatim. Caddyman can edit sites that it created with a per-site marker.": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "这些 Caddyfile 配置块仅供查看并会逐字保留。Caddyman 可以编辑带有单站点标记的配置。"
+          }
+        }
+      }
+    },
+    "This binary reports dns.providers.dnspod.": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "此二进制文件报告包含 dns.providers.dnspod 模块。"
+          }
+        }
+      }
+    },
+    "This Caddy binary does not report dns.providers.dnspod. DNSPod DNS-01 will be unavailable.": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "此 Caddy 二进制文件未报告 dns.providers.dnspod 模块，因此无法使用 DNSPod DNS-01。"
+          }
+        }
+      }
+    },
+    "This Caddy version returned an unsupported module-list format.": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "此版本的 Caddy 返回了不受支持的模块列表格式。"
+          }
+        }
+      }
+    },
+    "This marked site contains manual changes. Caddyman will not overwrite them; edit the Caddyfile directly or restore the original generated block.": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "此标记站点包含手工修改。Caddyman 不会覆盖这些内容；请直接编辑 Caddyfile 或恢复最初生成的站点块。"
+          }
+        }
+      }
+    },
+    "This view is read-only. Caddyman has not changed the selected file.": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "此视图为只读。Caddyman 未更改所选文件。"
+          }
+        }
+      }
+    },
+    "TLS": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "TLS"
+          }
+        }
+      }
+    },
+    "Update and restart Caddy": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "更新并重启 Caddy"
+          }
+        }
+      }
+    },
+    "Update the Caddy login service?": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "更新 Caddy 登录服务？"
+          }
+        }
+      }
+    },
+    "Update with selected configuration": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "使用所选配置更新"
+          }
+        }
+      }
+    },
+    "Upstream URL or host:port": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "上游 URL 或主机:端口"
+          }
+        }
+      }
+    },
+    "Upstream: %@": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "上游地址：%@"
+          }
+        }
+      }
+    },
+    "Use an HTTP or HTTPS upstream, such as `http://127.0.0.1:3000`.": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "上游地址需使用 HTTP 或 HTTPS，例如 `http://127.0.0.1:3000`。"
+          }
+        }
+      }
+    },
+    "Use automatic discovery": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "使用自动查找"
+          }
+        }
+      }
+    },
+    "Validate with selected Caddy": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "使用所选 Caddy 校验"
+          }
+        }
+      }
+    },
+    "Version": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "版本"
+          }
+        }
+      }
+    },
+    "Waiting for Caddy certificate activity. Issuance can continue in the background.": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "正在等待 Caddy 的证书活动信息。签发可在后台继续。"
+          }
+        }
+      }
+    },
+    "When Caddyman opens, it starts the selected Caddyfile. Quitting Caddyman stops the Caddy process it owns.": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Caddyman 打开后启动所选 Caddyfile；正常退出时停止它所管理的 Caddy 进程。"
+          }
+        }
+      }
+    },
+    "Custom Caddyfile directives": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "自定义 Caddyfile 指令"
+          }
+        }
+      }
+    },
+    "Sites are read from the selected Caddyfile.": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "站点直接从当前选中的 Caddyfile 读取。"
+          }
+        }
+      }
+    },
+    "Edit this site block using Caddyfile syntax. Other parts of the file stay untouched.": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "使用 Caddyfile 语法编辑此站点块。文件中的其他内容保持不变。"
+          }
+        }
+      }
+    },
+    "This block contains a credential. Caddyman hides it and disables raw editing.": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "此配置块包含凭证。Caddyman 会隐藏凭证并禁用原文编辑。"
+          }
+        }
+      }
+    },
+    "Changes are previewed as a complete diff and validated with the selected Caddy binary.": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "更改会先显示完整差异，并使用所选 Caddy 二进制进行验证。"
+          }
+        }
+      }
+    },
+    "Managed region": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "托管区域"
+          }
+        }
+      }
+    },
+    "Caddyfile sites": {"localizations":{"zh-Hans":{"stringUnit":{"state":"translated","value":"Caddyfile 站点"}}}},
+    "Imported Caddyfiles": {"localizations":{"zh-Hans":{"stringUnit":{"state":"translated","value":"导入的 Caddyfile"}}}},
+    "Manage top-level import directives. Imported site blocks are shown read-only; nested imports are not expanded.": {"localizations":{"zh-Hans":{"stringUnit":{"state":"translated","value":"管理顶层 import 指令。导入文件中的站点只读展示，不继续展开其中的 import。"}}}},
+    "Add Import…": {"localizations":{"zh-Hans":{"stringUnit":{"state":"translated","value":"添加导入…"}}}},
+    "Choose a Caddyfile in Caddy settings to manage sites.": {"localizations":{"zh-Hans":{"stringUnit":{"state":"translated","value":"请先在 Caddy 设置中选择 Caddyfile，再管理站点。"}}}},
+    "No sites in this Caddyfile": {"localizations":{"zh-Hans":{"stringUnit":{"state":"translated","value":"此 Caddyfile 中没有站点"}}}},
+    "Sites imported from other files appear below as read-only entries.": {"localizations":{"zh-Hans":{"stringUnit":{"state":"translated","value":"从其他文件导入的站点会在下方以只读方式显示。"}}}},
+    "Sites in selected Caddyfile: %d": {"localizations":{"zh-Hans":{"stringUnit":{"state":"translated","value":"所选 Caddyfile 中的站点：%d"}}}},
+    "Edit or remove site blocks after reviewing the full diff.": {"localizations":{"zh-Hans":{"stringUnit":{"state":"translated","value":"查看完整差异后再编辑或删除站点块。"}}}},
+    "Paths resolve relative to the selected Caddyfile.": {"localizations":{"zh-Hans":{"stringUnit":{"state":"translated","value":"路径以所选 Caddyfile 所在目录为基准解析。"}}}},
+    "No top-level imports in the selected Caddyfile.": {"localizations":{"zh-Hans":{"stringUnit":{"state":"translated","value":"所选 Caddyfile 没有顶层 import。"}}}},
+    "Edit Path…": {"localizations":{"zh-Hans":{"stringUnit":{"state":"translated","value":"编辑路径…"}}}},
+    "Delete Import…": {"localizations":{"zh-Hans":{"stringUnit":{"state":"translated","value":"删除导入…"}}}},
+    "Read-only": {"localizations":{"zh-Hans":{"stringUnit":{"state":"translated","value":"只读"}}}},
+    "No site blocks found in this imported file.": {"localizations":{"zh-Hans":{"stringUnit":{"state":"translated","value":"此导入文件中未找到站点块。"}}}},
+    "Choose and load a Caddyfile to inspect its imports.": {"localizations":{"zh-Hans":{"stringUnit":{"state":"translated","value":"选择并加载 Caddyfile 后即可查看其导入项。"}}}},
+    "Import a Caddyfile": {"localizations":{"zh-Hans":{"stringUnit":{"state":"translated","value":"导入 Caddyfile"}}}},
+    "Enter a file path or glob pattern. Relative paths resolve from the selected Caddyfile. Imported files are displayed read-only.": {"localizations":{"zh-Hans":{"stringUnit":{"state":"translated","value":"输入文件路径或 glob 模式。相对路径以所选 Caddyfile 所在目录为基准；导入文件中的内容只读显示。"}}}},
+    "Review Import…": {"localizations":{"zh-Hans":{"stringUnit":{"state":"translated","value":"预览导入…"}}}},
+    "Sites including imports: %d": {"localizations":{"zh-Hans":{"stringUnit":{"state":"translated","value":"包含导入文件的站点数：%d"}}}},
+    "No site blocks were found in the selected Caddyfile or its direct imports.": {"localizations":{"zh-Hans":{"stringUnit":{"state":"translated","value":"所选 Caddyfile 及其直接导入文件中均未找到站点块。"}}}},
+    "Enter one import path or glob pattern on a single line.": {"localizations":{"zh-Hans":{"stringUnit":{"state":"translated","value":"请输入单行的导入路径或 glob 模式。"}}}},
+    "Imports: %d · files: %d · sites: %d": {"localizations":{"zh-Hans":{"stringUnit":{"state":"translated","value":"导入项：%d · 文件：%d · 站点：%d"}}}},
+    "No external files matched these imports. Named snippets remain supported by Caddy.": {"localizations":{"zh-Hans":{"stringUnit":{"state":"translated","value":"这些导入项没有匹配到外部文件。Caddy 命名片段仍受支持。"}}}},
+    "Current Caddyfile": {"localizations":{"zh-Hans":{"stringUnit":{"state":"translated","value":"当前 Caddyfile"}}}},
+    "No Caddyfile selected": {"localizations":{"zh-Hans":{"stringUnit":{"state":"translated","value":"尚未选择 Caddyfile"}}}},
+    "%d sites": {"localizations":{"zh-Hans":{"stringUnit":{"state":"translated","value":"%d 个站点"}}}},
+    "Select a source file to preview the sites that can be copied.": {"localizations":{"zh-Hans":{"stringUnit":{"state":"translated","value":"选择来源文件，预览可复制的站点。"}}}},
+    "Merge sites from another file": {"localizations":{"zh-Hans":{"stringUnit":{"state":"translated","value":"从其他文件合并站点"}}}},
+    "Copy site blocks into the current Caddyfile after reviewing the changes.": {"localizations":{"zh-Hans":{"stringUnit":{"state":"translated","value":"确认更改后，将站点配置块复制到当前 Caddyfile。"}}}},
+    "Add a site here, or view sites from imported files below.": {"localizations":{"zh-Hans":{"stringUnit":{"state":"translated","value":"可以在这里添加站点，或在下方查看导入文件中的站点。"}}}},
+    "Choose a Caddyfile to begin": {"localizations":{"zh-Hans":{"stringUnit":{"state":"translated","value":"选择 Caddyfile 后开始"}}}},
+    "Select the active configuration in Caddy Settings.": {"localizations":{"zh-Hans":{"stringUnit":{"state":"translated","value":"请在 Caddy 设置中选择当前配置文件。"}}}},
+    "Sites in this file": {"localizations":{"zh-Hans":{"stringUnit":{"state":"translated","value":"当前文件中的站点"}}}},
+    "Manage site blocks stored directly in the selected Caddyfile.": {"localizations":{"zh-Hans":{"stringUnit":{"state":"translated","value":"管理直接保存在所选 Caddyfile 中的站点。"}}}},
+    "No imported files yet": {"localizations":{"zh-Hans":{"stringUnit":{"state":"translated","value":"还没有导入文件"}}}},
+    "Add an import to include another Caddyfile without copying its contents.": {"localizations":{"zh-Hans":{"stringUnit":{"state":"translated","value":"添加 import 引用其他 Caddyfile，无需复制文件内容。"}}}},
+    "Sites from imported files": {"localizations":{"zh-Hans":{"stringUnit":{"state":"translated","value":"导入文件中的站点"}}}},
+    "Import references are unavailable": {"localizations":{"zh-Hans":{"stringUnit":{"state":"translated","value":"暂时无法查看导入项"}}}},
+    "Manage top-level import references; imported content is read-only.": {"localizations":{"zh-Hans":{"stringUnit":{"state":"translated","value":"管理顶层 import 引用；导入文件内容只读显示。"}}}},
+    "Import reference": {"localizations":{"zh-Hans":{"stringUnit":{"state":"translated","value":"导入引用"}}}},
+    "Choose a file, or enter a relative path or glob pattern. Imported sites are shown read-only.": {"localizations":{"zh-Hans":{"stringUnit":{"state":"translated","value":"选择文件，或输入相对路径、glob 模式。导入站点只读显示。"}}}},
+    "Choose File…": {"localizations":{"zh-Hans":{"stringUnit":{"state":"translated","value":"选择文件…"}}}},
+    "Relative paths are based on the selected Caddyfile’s folder.": {"localizations":{"zh-Hans":{"stringUnit":{"state":"translated","value":"相对路径以所选 Caddyfile 所在文件夹为基准。"}}}},
+    "Choose a Caddyfile, not a folder.": {"localizations":{"zh-Hans":{"stringUnit":{"state":"translated","value":"请选择 Caddyfile 文件，不要选择文件夹。"}}}},
+    "A Caddyfile cannot import itself.": {"localizations":{"zh-Hans":{"stringUnit":{"state":"translated","value":"Caddyfile 不能导入自身。"}}}},
+    "Caddyman looks for an installed Caddy binary.": {"localizations":{"zh-Hans":{"stringUnit":{"state":"translated","value":"Caddyman 会自动查找已安装的 Caddy。"}}}},
+    "Choose the configuration Caddyman should manage.": {"localizations":{"zh-Hans":{"stringUnit":{"state":"translated","value":"选择要由 Caddyman 管理的配置文件。"}}}},
+    "Caddyman checks the selected binary for its version and DNSPod support. Site options follow the capabilities it reports.": {"localizations":{"zh-Hans":{"stringUnit":{"state":"translated","value":"Caddyman 会检查所选程序的版本和 DNSPod 支持情况，并据此提供站点选项。"}}}},
+    "Select an existing Caddy executable you trust. Caddyman never downloads or replaces it.": {"localizations":{"zh-Hans":{"stringUnit":{"state":"translated","value":"请选择可信的现有 Caddy 程序。Caddyman 不会下载或替换它。"}}}},
+    "Detection details": {"localizations":{"zh-Hans":{"stringUnit":{"state":"translated","value":"检测详情"}}}},
+    "Site overview": {"localizations":{"zh-Hans":{"stringUnit":{"state":"translated","value":"站点概览"}}}},
+    "Choose a Caddyfile in Caddy settings to view its sites.": {"localizations":{"zh-Hans":{"stringUnit":{"state":"translated","value":"请在 Caddy 设置中选择 Caddyfile 后查看站点。"}}}},
+    "Show all sites": {"localizations":{"zh-Hans":{"stringUnit":{"state":"translated","value":"查看全部站点"}}}},
+    "Sites including imports": {"localizations":{"zh-Hans":{"stringUnit":{"state":"translated","value":"包含导入的站点"}}}},
+    "The Caddyfile stores `{env.DNSPOD_TOKEN}`. Save the token in DNSPod settings; Caddyman injects it only into its child Caddy process.": {"localizations":{"zh-Hans":{"stringUnit":{"state":"translated","value":"Caddyfile 保存 `{env.DNSPOD_TOKEN}` 占位符。请在 DNSPod 设置中保存令牌；Caddyman 只会将其注入自己启动的 Caddy 进程。"}}}},
+    "APP_ID,APP_TOKEN": {"localizations":{"zh-Hans":{"stringUnit":{"state":"translated","value":"APP_ID,APP_TOKEN"}}}},
+    "SHA-256": {"localizations":{"zh-Hans":{"stringUnit":{"state":"translated","value":"SHA-256"}}}},
+    "caddy version · caddy list-modules --json · dns.providers.dnspod": {"localizations":{"zh-Hans":{"stringUnit":{"state":"translated","value":"caddy version · caddy list-modules --json · dns.providers.dnspod"}}}},
+    "sites/*.caddy": {"localizations":{"zh-Hans":{"stringUnit":{"state":"translated","value":"sites/*.caddy"}}}}
+  },
+  "version": "1.0"
+}

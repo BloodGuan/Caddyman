@@ -1,0 +1,343 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A10000000000000000000001 /* CaddymanApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000000000000000000001 /* CaddymanApp.swift */; };
+		A10000000000000000000002 /* CaddymanIdentity.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000000000000000000002 /* CaddymanIdentity.swift */; };
+		A10000000000000000000003 /* OverviewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000000000000000000003 /* OverviewView.swift */; };
+		A10000000000000000000004 /* CaddymanIdentityTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000000000000000000004 /* CaddymanIdentityTests.swift */; };
+		A10000000000000000000005 /* CaddyProcessRunner.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000000000000000000007 /* CaddyProcessRunner.swift */; };
+		A10000000000000000000006 /* CaddyBinaryInspector.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000000000000000000008 /* CaddyBinaryInspector.swift */; };
+		A10000000000000000000007 /* CaddyServiceStatusChecker.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000000000000000000009 /* CaddyServiceStatusChecker.swift */; };
+		A10000000000000000000008 /* CaddymanAppModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2000000000000000000000A /* CaddymanAppModel.swift */; };
+		A10000000000000000000009 /* MenuBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2000000000000000000000B /* MenuBarView.swift */; };
+		A1000000000000000000000A /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2000000000000000000000C /* SettingsView.swift */; };
+		A1000000000000000000000B /* CaddyInspectionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2000000000000000000000D /* CaddyInspectionTests.swift */; };
+		A1000000000000000000000C /* ProcessRunnerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2000000000000000000000E /* ProcessRunnerTests.swift */; };
+		A1000000000000000000000D /* CaddymanAppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2000000000000000000000F /* CaddymanAppDelegate.swift */; };
+		A1000000000000000000000E /* AppWindowPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000000000000000000010 /* AppWindowPresenter.swift */; };
+		A1000000000000000000000F /* MenuActionRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000000000000000000011 /* MenuActionRow.swift */; };
+		A10000000000000000000010 /* SettingsFormStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000000000000000000012 /* SettingsFormStyle.swift */; };
+		A10000000000000000000011 /* Localization.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000000000000000000013 /* Localization.swift */; };
+		A10000000000000000000012 /* Localizable.xcstrings in Resources */ = {isa = PBXBuildFile; fileRef = A20000000000000000000014 /* Localizable.xcstrings */; };
+		A10000000000000000000013 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A20000000000000000000015 /* Assets.xcassets */; };
+		A10000000000000000000014 /* CaddyfileDocument.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000000000000000000016 /* CaddyfileDocument.swift */; };
+		A10000000000000000000015 /* CaddyfileDocumentTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000000000000000000017 /* CaddyfileDocumentTests.swift */; };
+		A10000000000000000000016 /* LocalizationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000000000000000000018 /* LocalizationTests.swift */; };
+		A10000000000000000000017 /* CaddyfileMigrationPreview.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000000000000000000019 /* CaddyfileMigrationPreview.swift */; };
+		A10000000000000000000018 /* CaddyfileMigrationPreviewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2000000000000000000001A /* CaddyfileMigrationPreviewTests.swift */; };
+		A10000000000000000000019 /* CaddyfileAtomicWriter.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2000000000000000000001B /* CaddyfileAtomicWriter.swift */; };
+		A1000000000000000000001A /* CaddyfileSiteEditor.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2000000000000000000001C /* CaddyfileSiteEditor.swift */; };
+		A1000000000000000000001B /* ReverseProxySite.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2000000000000000000001D /* ReverseProxySite.swift */; };
+		A1000000000000000000001C /* CaddyRuntimeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2000000000000000000001E /* CaddyRuntimeController.swift */; };
+		A1000000000000000000001D /* DNSPodCredentialStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2000000000000000000001F /* DNSPodCredentialStore.swift */; };
+		A1000000000000000000001E /* SiteManagementView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000000000000000000020 /* SiteManagementView.swift */; };
+		A1000000000000000000001F /* PhaseFourFiveTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000000000000000000021 /* PhaseFourFiveTests.swift */; };
+		A10000000000000000000020 /* CaddyLaunchAgent.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000000000000000000022 /* CaddyLaunchAgent.swift */; };
+		A10000000000000000000021 /* CaddymanLoginItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000000000000000000023 /* CaddymanLoginItem.swift */; };
+		A10000000000000000000022 /* CaddyLauncher.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000000000000000000024 /* CaddyLauncher.swift */; };
+		A10000000000000000000023 /* PhaseSixTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000000000000000000025 /* PhaseSixTests.swift */; };
+		A10000000000000000000024 /* CaddyAppLifecycleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000000000000000000026 /* CaddyAppLifecycleTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A30000000000000000000001 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A40000000000000000000001 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A60000000000000000000001;
+			remoteInfo = Caddyman;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A20000000000000000000001 /* CaddymanApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CaddymanApp.swift; sourceTree = "<group>"; };
+		A20000000000000000000002 /* CaddymanIdentity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CaddymanIdentity.swift; sourceTree = "<group>"; };
+		A20000000000000000000003 /* OverviewView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OverviewView.swift; sourceTree = "<group>"; };
+		A20000000000000000000004 /* CaddymanIdentityTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CaddymanIdentityTests.swift; sourceTree = "<group>"; };
+		A20000000000000000000005 /* Caddyman.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Caddyman.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A20000000000000000000006 /* CaddymanTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CaddymanTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A20000000000000000000007 /* CaddyProcessRunner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CaddyProcessRunner.swift; sourceTree = "<group>"; };
+		A20000000000000000000008 /* CaddyBinaryInspector.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CaddyBinaryInspector.swift; sourceTree = "<group>"; };
+		A20000000000000000000009 /* CaddyServiceStatusChecker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CaddyServiceStatusChecker.swift; sourceTree = "<group>"; };
+		A2000000000000000000000A /* CaddymanAppModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CaddymanAppModel.swift; sourceTree = "<group>"; };
+		A2000000000000000000000B /* MenuBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuBarView.swift; sourceTree = "<group>"; };
+		A2000000000000000000000C /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		A2000000000000000000000D /* CaddyInspectionTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CaddyInspectionTests.swift; sourceTree = "<group>"; };
+		A2000000000000000000000E /* ProcessRunnerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProcessRunnerTests.swift; sourceTree = "<group>"; };
+		A2000000000000000000000F /* CaddymanAppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CaddymanAppDelegate.swift; sourceTree = "<group>"; };
+		A20000000000000000000010 /* AppWindowPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppWindowPresenter.swift; sourceTree = "<group>"; };
+		A20000000000000000000011 /* MenuActionRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuActionRow.swift; sourceTree = "<group>"; };
+		A20000000000000000000012 /* SettingsFormStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsFormStyle.swift; sourceTree = "<group>"; };
+		A20000000000000000000013 /* Localization.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Localization.swift; sourceTree = "<group>"; };
+		A20000000000000000000014 /* Localizable.xcstrings */ = {isa = PBXFileReference; lastKnownFileType = text.json.xcstrings; path = Localizable.xcstrings; sourceTree = "<group>"; };
+		A20000000000000000000015 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A20000000000000000000016 /* CaddyfileDocument.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CaddyfileDocument.swift; sourceTree = "<group>"; };
+		A20000000000000000000017 /* CaddyfileDocumentTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CaddyfileDocumentTests.swift; sourceTree = "<group>"; };
+		A20000000000000000000018 /* LocalizationTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalizationTests.swift; sourceTree = "<group>"; };
+		A20000000000000000000019 /* CaddyfileMigrationPreview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CaddyfileMigrationPreview.swift; sourceTree = "<group>"; };
+		A2000000000000000000001A /* CaddyfileMigrationPreviewTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CaddyfileMigrationPreviewTests.swift; sourceTree = "<group>"; };
+		A2000000000000000000001B /* CaddyfileAtomicWriter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CaddyfileAtomicWriter.swift; sourceTree = "<group>"; };
+		A2000000000000000000001C /* CaddyfileSiteEditor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CaddyfileSiteEditor.swift; sourceTree = "<group>"; };
+		A2000000000000000000001D /* ReverseProxySite.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReverseProxySite.swift; sourceTree = "<group>"; };
+		A2000000000000000000001E /* CaddyRuntimeController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CaddyRuntimeController.swift; sourceTree = "<group>"; };
+		A2000000000000000000001F /* DNSPodCredentialStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DNSPodCredentialStore.swift; sourceTree = "<group>"; };
+		A20000000000000000000020 /* SiteManagementView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SiteManagementView.swift; sourceTree = "<group>"; };
+		A20000000000000000000021 /* PhaseFourFiveTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhaseFourFiveTests.swift; sourceTree = "<group>"; };
+		A20000000000000000000022 /* CaddyLaunchAgent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CaddyLaunchAgent.swift; sourceTree = "<group>"; };
+		A20000000000000000000023 /* CaddymanLoginItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CaddymanLoginItem.swift; sourceTree = "<group>"; };
+		A20000000000000000000024 /* CaddyLauncher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CaddyLauncher.swift; sourceTree = "<group>"; };
+		A20000000000000000000025 /* PhaseSixTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhaseSixTests.swift; sourceTree = "<group>"; };
+		A20000000000000000000026 /* CaddyAppLifecycleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CaddyAppLifecycleTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A50000000000000000000001 /* Frameworks */ = {isa = PBXFrameworksBuildPhase; buildActionMask = 2147483647; files = (); runOnlyForDeploymentPostprocessing = 0; };
+		A50000000000000000000002 /* Frameworks */ = {isa = PBXFrameworksBuildPhase; buildActionMask = 2147483647; files = (); runOnlyForDeploymentPostprocessing = 0; };
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A70000000000000000000001 = {
+			isa = PBXGroup;
+			children = (
+				A70000000000000000000002 /* Caddyman */,
+				A70000000000000000000003 /* CaddymanTests */,
+				A70000000000000000000004 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A70000000000000000000002 /* Caddyman */ = {
+			isa = PBXGroup;
+			path = Caddyman;
+			sourceTree = "<group>";
+			children = (
+				A70000000000000000000005 /* App */,
+				A70000000000000000000009 /* Caddy */,
+				A7000000000000000000000D /* LaunchAgent */,
+				A70000000000000000000006 /* Domain */,
+				A70000000000000000000007 /* Features */,
+				A7000000000000000000000C /* Support */,
+				A20000000000000000000014 /* Localizable.xcstrings */,
+				A20000000000000000000015 /* Assets.xcassets */,
+			);
+		};
+		A70000000000000000000003 /* CaddymanTests */ = {
+			isa = PBXGroup;
+			path = CaddymanTests;
+			sourceTree = "<group>";
+			children = (A20000000000000000000004 /* CaddymanIdentityTests.swift */, A2000000000000000000000D /* CaddyInspectionTests.swift */, A2000000000000000000000E /* ProcessRunnerTests.swift */, A20000000000000000000017 /* CaddyfileDocumentTests.swift */, A20000000000000000000018 /* LocalizationTests.swift */, A2000000000000000000001A /* CaddyfileMigrationPreviewTests.swift */, A20000000000000000000021 /* PhaseFourFiveTests.swift */, A20000000000000000000025 /* PhaseSixTests.swift */, A20000000000000000000026 /* CaddyAppLifecycleTests.swift */,);
+		};
+		A70000000000000000000004 /* Products */ = {
+			isa = PBXGroup;
+			name = Products;
+			sourceTree = "<group>";
+			children = (
+				A20000000000000000000005 /* Caddyman.app */,
+				A20000000000000000000006 /* CaddymanTests.xctest */,
+			);
+		};
+		A70000000000000000000005 /* App */ = {
+			isa = PBXGroup;
+			path = App;
+			sourceTree = "<group>";
+			children = (A20000000000000000000001 /* CaddymanApp.swift */, A2000000000000000000000F /* CaddymanAppDelegate.swift */, A20000000000000000000024 /* CaddyLauncher.swift */,);
+		};
+		A70000000000000000000006 /* Domain */ = {
+			isa = PBXGroup;
+			path = Domain;
+			sourceTree = "<group>";
+			children = (A20000000000000000000002 /* CaddymanIdentity.swift */, A2000000000000000000000A /* CaddymanAppModel.swift */, A2000000000000000000001D /* ReverseProxySite.swift */,);
+		};
+		A70000000000000000000007 /* Features */ = {
+			isa = PBXGroup;
+			path = Features;
+			sourceTree = "<group>";
+			children = (A70000000000000000000008 /* Overview */, A7000000000000000000000A /* MenuBar */, A7000000000000000000000B /* Settings */,);
+		};
+		A70000000000000000000008 /* Overview */ = {
+			isa = PBXGroup;
+			path = Overview;
+			sourceTree = "<group>";
+			children = (A20000000000000000000003 /* OverviewView.swift */,);
+		};
+		A70000000000000000000009 /* Caddy */ = {
+			isa = PBXGroup;
+			path = Caddy;
+			sourceTree = "<group>";
+			children = (A20000000000000000000007 /* CaddyProcessRunner.swift */, A20000000000000000000008 /* CaddyBinaryInspector.swift */, A20000000000000000000009 /* CaddyServiceStatusChecker.swift */, A20000000000000000000016 /* CaddyfileDocument.swift */, A20000000000000000000019 /* CaddyfileMigrationPreview.swift */, A2000000000000000000001B /* CaddyfileAtomicWriter.swift */, A2000000000000000000001C /* CaddyfileSiteEditor.swift */, A2000000000000000000001E /* CaddyRuntimeController.swift */, A2000000000000000000001F /* DNSPodCredentialStore.swift */,);
+		};
+		A7000000000000000000000A /* MenuBar */ = {
+			isa = PBXGroup;
+			path = MenuBar;
+			sourceTree = "<group>";
+			children = (A2000000000000000000000B /* MenuBarView.swift */, A20000000000000000000011 /* MenuActionRow.swift */,);
+		};
+		A7000000000000000000000B /* Settings */ = {
+			isa = PBXGroup;
+			path = Settings;
+			sourceTree = "<group>";
+			children = (A2000000000000000000000C /* SettingsView.swift */, A20000000000000000000012 /* SettingsFormStyle.swift */, A20000000000000000000020 /* SiteManagementView.swift */,);
+		};
+		A7000000000000000000000C /* Support */ = {
+			isa = PBXGroup;
+			path = Support;
+			sourceTree = "<group>";
+			children = (A20000000000000000000010 /* AppWindowPresenter.swift */, A20000000000000000000013 /* Localization.swift */,);
+		};
+		A7000000000000000000000D /* LaunchAgent */ = {
+			isa = PBXGroup;
+			path = LaunchAgent;
+			sourceTree = "<group>";
+			children = (A20000000000000000000022 /* CaddyLaunchAgent.swift */, A20000000000000000000023 /* CaddymanLoginItem.swift */,);
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A60000000000000000000001 /* Caddyman */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A80000000000000000000001 /* Build configuration list for PBXNativeTarget "Caddyman" */;
+			buildPhases = (A50000000000000000000003 /* Sources */, A50000000000000000000001 /* Frameworks */, A50000000000000000000005 /* Resources */,);
+			buildRules = ();
+			dependencies = ();
+			name = Caddyman;
+			productName = Caddyman;
+			productReference = A20000000000000000000005 /* Caddyman.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A60000000000000000000002 /* CaddymanTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A80000000000000000000002 /* Build configuration list for PBXNativeTarget "CaddymanTests" */;
+			buildPhases = (A50000000000000000000004 /* Sources */, A50000000000000000000002 /* Frameworks */, A50000000000000000000006 /* Resources */,);
+			buildRules = ();
+			dependencies = (A90000000000000000000001 /* PBXTargetDependency */,);
+			name = CaddymanTests;
+			productName = CaddymanTests;
+			productReference = A20000000000000000000006 /* CaddymanTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A40000000000000000000001 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 2700;
+				TargetAttributes = {
+					A60000000000000000000001 = {CreatedOnToolsVersion = 27.0; };
+					A60000000000000000000002 = {CreatedOnToolsVersion = 27.0; TestTargetID = A60000000000000000000001; };
+				};
+			};
+			buildConfigurationList = A80000000000000000000003 /* Build configuration list for PBXProject "Caddyman" */;
+			compatibilityVersion = "Xcode 16.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (en, Base, zh-Hans,);
+			mainGroup = A70000000000000000000001;
+			productRefGroup = A70000000000000000000004 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (A60000000000000000000001 /* Caddyman */, A60000000000000000000002 /* CaddymanTests */,);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A50000000000000000000005 /* Resources */ = {isa = PBXResourcesBuildPhase; buildActionMask = 2147483647; files = (A10000000000000000000012 /* Localizable.xcstrings in Resources */, A10000000000000000000013 /* Assets.xcassets in Resources */,); runOnlyForDeploymentPostprocessing = 0; };
+		A50000000000000000000006 /* Resources */ = {isa = PBXResourcesBuildPhase; buildActionMask = 2147483647; files = (); runOnlyForDeploymentPostprocessing = 0; };
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A50000000000000000000003 /* Sources */ = {isa = PBXSourcesBuildPhase; buildActionMask = 2147483647; files = (A10000000000000000000001 /* CaddymanApp.swift in Sources */, A10000000000000000000002 /* CaddymanIdentity.swift in Sources */, A10000000000000000000003 /* OverviewView.swift in Sources */, A10000000000000000000005 /* CaddyProcessRunner.swift in Sources */, A10000000000000000000006 /* CaddyBinaryInspector.swift in Sources */, A10000000000000000000007 /* CaddyServiceStatusChecker.swift in Sources */, A10000000000000000000008 /* CaddymanAppModel.swift in Sources */, A10000000000000000000009 /* MenuBarView.swift in Sources */, A1000000000000000000000A /* SettingsView.swift in Sources */, A1000000000000000000000D /* CaddymanAppDelegate.swift in Sources */, A1000000000000000000000E /* AppWindowPresenter.swift in Sources */, A1000000000000000000000F /* MenuActionRow.swift in Sources */, A10000000000000000000010 /* SettingsFormStyle.swift in Sources */, A10000000000000000000011 /* Localization.swift in Sources */, A10000000000000000000014 /* CaddyfileDocument.swift in Sources */, A10000000000000000000017 /* CaddyfileMigrationPreview.swift in Sources */, A10000000000000000000019 /* CaddyfileAtomicWriter.swift in Sources */, A1000000000000000000001A /* CaddyfileSiteEditor.swift in Sources */, A1000000000000000000001B /* ReverseProxySite.swift in Sources */, A1000000000000000000001C /* CaddyRuntimeController.swift in Sources */, A1000000000000000000001D /* DNSPodCredentialStore.swift in Sources */, A1000000000000000000001E /* SiteManagementView.swift in Sources */, A10000000000000000000020 /* CaddyLaunchAgent.swift in Sources */, A10000000000000000000021 /* CaddymanLoginItem.swift in Sources */, A10000000000000000000022 /* CaddyLauncher.swift in Sources */,); runOnlyForDeploymentPostprocessing = 0; };
+		A50000000000000000000004 /* Sources */ = {isa = PBXSourcesBuildPhase; buildActionMask = 2147483647; files = (A10000000000000000000004 /* CaddymanIdentityTests.swift in Sources */, A1000000000000000000000B /* CaddyInspectionTests.swift in Sources */, A1000000000000000000000C /* ProcessRunnerTests.swift in Sources */, A10000000000000000000015 /* CaddyfileDocumentTests.swift in Sources */, A10000000000000000000016 /* LocalizationTests.swift in Sources */, A10000000000000000000018 /* CaddyfileMigrationPreviewTests.swift in Sources */, A1000000000000000000001F /* PhaseFourFiveTests.swift in Sources */, A10000000000000000000023 /* PhaseSixTests.swift in Sources */, A10000000000000000000024 /* CaddyAppLifecycleTests.swift in Sources */,); runOnlyForDeploymentPostprocessing = 0; };
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A90000000000000000000001 /* PBXTargetDependency */ = {isa = PBXTargetDependency; target = A60000000000000000000001 /* Caddyman */; targetProxy = A30000000000000000000001 /* PBXContainerItemProxy */; };
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		AA0000000000000000000001 /* Debug app */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ENABLE_APP_SANDBOX = NO;
+				ENABLE_TESTABILITY = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = Caddyman;
+				INFOPLIST_KEY_LSUIElement = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.blood.caddyman;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		AA0000000000000000000002 /* Release app */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ENABLE_APP_SANDBOX = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = Caddyman;
+				INFOPLIST_KEY_LSUIElement = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.blood.caddyman;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		AA0000000000000000000003 /* Debug tests */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.blood.caddyman.tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Caddyman.app/Contents/MacOS/Caddyman";
+			};
+			name = Debug;
+		};
+		AA0000000000000000000004 /* Release tests */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.blood.caddyman.tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Caddyman.app/Contents/MacOS/Caddyman";
+			};
+			name = Release;
+		};
+		AA0000000000000000000005 /* Debug project */ = {isa = XCBuildConfiguration; buildSettings = {CLANG_ENABLE_MODULES = YES; MACOSX_DEPLOYMENT_TARGET = 15.0; SDKROOT = macosx; SWIFT_VERSION = 5.0; }; name = Debug; };
+		AA0000000000000000000006 /* Release project */ = {isa = XCBuildConfiguration; buildSettings = {CLANG_ENABLE_MODULES = YES; MACOSX_DEPLOYMENT_TARGET = 15.0; SDKROOT = macosx; SWIFT_VERSION = 5.0; }; name = Release; };
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A80000000000000000000001 /* Build configuration list for PBXNativeTarget "Caddyman" */ = {isa = XCConfigurationList; buildConfigurations = (AA0000000000000000000001 /* Debug app */, AA0000000000000000000002 /* Release app */,); defaultConfigurationIsVisible = 0; defaultConfigurationName = Release; };
+		A80000000000000000000002 /* Build configuration list for PBXNativeTarget "CaddymanTests" */ = {isa = XCConfigurationList; buildConfigurations = (AA0000000000000000000003 /* Debug tests */, AA0000000000000000000004 /* Release tests */,); defaultConfigurationIsVisible = 0; defaultConfigurationName = Release; };
+		A80000000000000000000003 /* Build configuration list for PBXProject "Caddyman" */ = {isa = XCConfigurationList; buildConfigurations = (AA0000000000000000000005 /* Debug project */, AA0000000000000000000006 /* Release project */,); defaultConfigurationIsVisible = 0; defaultConfigurationName = Release; };
+/* End XCConfigurationList section */
+	};
+	rootObject = A40000000000000000000001 /* Project object */;
+}
